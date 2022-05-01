@@ -1,0 +1,23 @@
+.read-more__read-or-hide {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #808080;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.read-more__content {
+  text-align: justify;
+  height: 65px;
+  overflow: hidden;
+}
+
+.read-more__content.read-more__content_full {
+  height: fit-content;
+  overflow: visible;
+}
+
+.read-more__read-or-hide {
+  width: fit-content;
+}

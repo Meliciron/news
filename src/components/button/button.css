@@ -1,0 +1,21 @@
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+}
+
+.news-card__btn {
+  padding: 0 10px;
+  border: 1px solid #0088ee;
+  border-radius: 2px;
+  font-size: 11px;
+
+  color: #0088ee;
+  width: 64px;
+  height: 28px;
+}
+
+.news-card__btn:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}

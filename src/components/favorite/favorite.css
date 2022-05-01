@@ -1,0 +1,9 @@
+.favorite {
+  cursor: pointer;
+  stroke: #cdcdcd;
+}
+
+.favorite_active {
+  fill: #0088ee;
+  stroke: none;
+}

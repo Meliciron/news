@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/fontAwesome/fa-regular-400.woff2') format('woff2'),
+    url('./assets/fonts/fontAwesome/fa-regular-400.woff') format('woff'),
+    url('./assets/fonts/fontAwesome/fa-regular-400.ttf') format('ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
 }

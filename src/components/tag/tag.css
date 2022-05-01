@@ -1,0 +1,13 @@
+.tag {
+  margin-right: 8px;
+  color: #cdcdcd;
+  font-size: 12px;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}
+
+.tag.tag_acive {
+  color: #0088ee;
+}
